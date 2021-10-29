@@ -1,0 +1,121 @@
+/* quando è un tag html e non una class non si mette il punto */
+.body {
+  background-color: #ffc10705;
+}
+.navbar-bg {
+  background-color: #ffc10705;
+}
+.background-section { 
+  background-color: #fff5da;
+  margin: 0 auto;
+  width: 94%;
+}
+.carousel-caption {
+    background-color: rgba(26, 26, 26, .7);
+    left: 0;
+    right: 0;
+    width: 100%; bottom: 0px;
+
+}
+.carousel-image {
+  height: 100vh;
+}
+/* # si usa quando è un id */
+#carouselExampleCaptions {
+  margin: 40px;
+}
+.main {
+  margin: 40px;
+
+  background-color: #fff5da;
+}
+/* vh è un'unità di misura responsiva, 100vh è tutto lo schermo in altezza */
+.btn-card {
+  width: 100%;
+  bottom: 0;
+
+}
+.btn {
+  background-color: #e3b39e !important;
+  font-weight: 500;
+    color: black !important;
+    border: 1px solid #dfdfdf !important;
+}
+.background-footer {
+  background-color: #fff5da;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 94%;
+  /* !important serve a ignorare le regole che sovrascrivono quella specificata */
+  color: black !important;
+}
+.background-footer li {
+  /* per togliere i pallini dall'elenco */
+  list-style-type: none;
+}
+.navbar {
+  background-color: #ffc10705;
+}
+
+.row {
+  background-color: #ffc10705;
+}
+.col-md-12 {
+  background-color: #fff5da;
+}
+.col-md-12 pb-4 pt-4 {
+  background-color: #fff5da;;
+}
+#header-lista{
+  background-color: #fffcf5;
+}
+aside .card:hover, .card-tool:hover, .card-item:hover, .card-related-item:hover {
+  box-shadow: 0px 5px 40px -10px rgba(122, 144, 173, .9);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(38, 44, 52, .9); 
+  -moz-box-shadow: 0px 5px 40px -10px rgba(38, 44, 52, .9);
+}
+
+/*Btn pressend and hover*/
+.btn:hover,.btn:active, .btn:focus {
+  background-color: #7f7a6d !important;
+  border-color: #7f7a6d !important;
+  color: white !important;
+  box-shadow: 0 0 0 0.2rem rgb(129 129 129 / 50%) !important;
+}
+#toggle-opere{
+  background-color: #f4e0d7;
+  border-color: #f4e0d7;
+}
+
+#toggle-luoghi{
+  background-color:#d99373;
+  border-color: #d99373;
+}
+
+.dropdown-toggle {
+  width: 100%;
+}
+.carousel-item img {
+  height: 500px;
+  width: auto !important;
+}
+.pt-5, .py-5 {
+    padding-top: 0 !important;
+}
+.text-gray {
+  color: #bdb9b9;
+}
+
+/* breadcrumbs */
+.breadcrumbs > ul > li {
+  color: rgba(0, 0, 0, .5); 
+  display: inline; 
+  font-size: .9em;
+}
+/* ::after indica che dopo ogni elemento con le classi/attributi indicati bisogna inserire il contenuto riportato dalla proprietà content */
+.breadcrumbs li:not(:last-child)::after {
+  content: " >";
+}
+.share button{
+  width: 100%;
+}

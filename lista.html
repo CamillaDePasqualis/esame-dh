@@ -1,0 +1,415 @@
+<html lang="it"><!-- head --><head>
+    <!-- charset -->
+    <meta charset="utf-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- metadati DC -->
+    <meta name="DC.Title" content="Inserisci il titolo del tuo sito web">
+    <meta name="DC.Creator" content="Inserisci il tuo nome e il tuo cognome">
+    <meta name="DC.Subject" content="Inserisci il tema principale del tuo sito web">
+    <meta name="DC.Description" content="Inserisci una breve descrizione del tuo sito web">
+    <meta name="DC.Publisher" content="Inserisci un riferimento all'ente che si occupa della pubblicazione del tuo sito web">
+    <meta name="DC.Contributor" content="Inserisci i nomi e i cognomi di coloro che hanno contribuito alla realizzazione del tuo sito web">
+    <meta name="DC.Date" content="Inserisci la data di creazione/pubblicazione/aggiornamento del tuo sito web">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+    <link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
+    <meta name="DC.Source" content="Inserisci le risorse utilizzate per la realizzazione del tuo sito web">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation" content="Inserisci dei riferimenti alle risorse collegate al sito web, possibilmente utilizzando identificazioni formali (per esempio, i codici ISBN per i libri)">
+    <link rel="DC.Coverage" href="Inserisci una localizzazione per il tuo sito web, possibilmente utilizzando un vocabolario controllato (per esempio, http://www.getty.edu/research/tools/vocabularies/tgn/)">
+    <meta name="DC.Rights" content="Inserisci il tipo di licenza con cui intendi proteggere il tuo sito web (per esempio, fai riferimento a una delle licenze Creative Commons: https://creativecommons.org/share-your-work/)">
+    <!-- il titolo del sito riportato all'interno del tag title compare nella finestra del browser -->
+    <title>Le Corbusier Archive</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- css specifico lista -->
+    <link rel="stylesheet" type="text/css" href="lista.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+</head>
+
+<!-- body -->
+
+<body data-new-gr-c-s-check-loaded="14.1034.0" data-gr-ext-installed="">
+    <body class="body">
+    <!-- header -->
+    <header>
+        <!-- bootstrap navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light navbar-bg">
+            <img src="immagini\lecorbusier.gif" height="80" alt="">
+            <a class="navbar-brand" href="index.html" title="Torna a Home">Archive</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" title="Home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="Introduzione">Introduzione</a>
+                    </li>
+                    <!-- sposta la classe active in base alla pagina visualizzata -->
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Catalogo">Navigazione</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#" title="Lista">Lista</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" title="Luoghi">Mappa</a>
+                            <a class="dropdown-item" href="#" title="Date">Linea del tempo</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">|</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary btn-blue my-2 my-sm-0" type="submit">Cerca</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="background-gray pb-5 pt-5">
+        <!-- items -->
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 pb-4 pt-4">
+                     <h2 class="text-light text-center"><span class="text-black-50">Catalogo Lista</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- classi col-sm e col-xs rispettivamente per small devices (tablet) e extrasmall devices (mobile) -->
+                <div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+                    <aside>
+                        <!-- breadcrumbs -->
+                        <nav class="breadcrumbs">
+                            <ul class="pl-0">
+                                <li><a href="index.html" class="link" title="Torna a Home">Home</a></li>
+                                <li>Lista</li>
+                            </ul>
+                        </nav>
+                        <!-- filtri -->
+                        <!-- ordina la lista -->
+                        <div class="checkbox-container">
+                            <h3 class="mb-0">Riordina la lista:</h3>
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-outline-secondary active mt-1">
+                                    <input type="radio" checked=""> A-Z
+                                </label>
+                                <label class="btn btn-outline-secondary mt-1">
+                                    <input type="radio"> Z-A
+                                </label>
+                                <label class="btn btn-outline-secondary mt-1">
+                                    <input type="radio"> Ordine cronologico
+                                </label>
+                            </div>
+                        </div>
+                        <!-- filtra la lista -->
+                        <div class="checkbox-container mt-4">
+                            <h3 class="mb-0">Filtra la lista:</h3>
+                            <!-- dropdown menu -->
+                            <div class="dropdown dropright mt-1">
+                                <button id="toggle-opere" class="btn btn-primary btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Opere
+                                </button>
+                                <div class="dropdown-menu p-3">
+                                    <!-- checkbox -->
+                                    <input type="checkbox">
+                                    <label>Après le Cubisme</label><br>
+                                    <input type="checkbox">
+                                    <label>Cit&eacute; radieuse</label><br>
+                                    <input type="checkbox">
+                                    <label>Carpenter Center for the Visual Art</label><br>
+                                    <input type="checkbox">
+                                    <label>Chaise Longue</label><br>
+                                    <input type="checkbox">
+                                    <label>Esprit Nouveau</label><br>
+                                    <input type="checkbox">
+                                    <label>Guitar et Bouteilles</label><br>
+                                    <input type="checkbox">
+                                    <label>La Chaminée</label><br>
+                                    <input type="checkbox">
+                                    <label>L'Esprit Nouveau</label><br>
+                                    <input type="checkbox">
+                                    <label></label>Ossatura Domino<br>
+                                    <input type="checkbox">
+                                    <label>Pavillon de l'Espirit Noveau</label><br>
+                                    <input type="checkbox">
+                                    <label>Siège pivotant</label><br>
+                                    <button type="button" class="btn btn-primary mt-2">Filtra</button>
+                                </div>
+                            </div>
+                            <div class="dropdown dropright mt-1">
+                                <button id="toggle-date" class="btn btn-primary btn-blue dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Date
+                                </button>
+                                <div class="dropdown-menu p-3">
+                                    <!-- checkbox -->
+                                    <input type="checkbox">
+                                    <label>1902</label><br>
+                                    <input type="checkbox">
+                                    <label>1919</label><br>
+                                    <input type="checkbox">
+                                    <label>1928</label><br>
+                                    <input type="checkbox">
+                                    <label>1939</label><br>
+                                    <input type="checkbox">
+                                    <label>1943</label><br>
+                                    <input type="checkbox">
+                                    <label>1965</label><br>
+                                    <button type="button" class="btn btn-blue mt-2">Filtra</button>
+                                </div>
+                            </div>
+                            <div class="dropdown dropright mt-1">
+                                <button id="toggle-luoghi" class="btn btn-primary btn-info dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Luoghi
+                                </button>
+                                <div class="dropdown-menu p-3">
+                                    <!-- checkbox -->
+                                    <input type="checkbox">
+                                    <label>Marsiglia</label><br>
+                                    <input type="checkbox">
+                                    <label>Parigi</label><br>
+                                    <input type="checkbox">
+                                    <label>Tokyo</label><br>
+                                    <input type="checkbox">
+                                    <label>Chandigar</label><br>
+                                    <input type="checkbox">
+                                    <label>New York</label><br>
+                                    <button type="button" class="btn btn-info mt-2">Filtra</button>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+                <!-- items -->
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <!-- COLONNE INNESTATE: ripeti all'interno di un div con classe col-*-* un div con classe row e innesta al suo interno nuovi div con classe col-*-* -->
+                    <!-- tab -->
+                    <div class="row">
+                        <div id="header-lista" class="col-md-12">
+                            <ul class="nav nav-tabs mt-4">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" title="Tutti gli oggetti catalogati">All</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" title="Solo testi catalogati">Testi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" title="Solo immagini catalogate">Immagini</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" title="Solo audio catalogati">Audio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" title="Solo video catalogati">Video</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" title="Solo 3D catalogati">3D</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- prima riga di card per ciascun item -->
+                    <div class="row">
+                         <!-- item 1 -->
+                        <div class="col-md-4 mt-4">
+                            <div class="card card-item">
+                                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutti i testi del catalogo"><i class="bi bi-file-text-fill"></i></a></span>
+                                <div class="card-image-container">
+                                    <img src="immagini\l'artedeco.jpg" class="card-img-top" alt="Il Perticari confutato da Dante: cenni, Tommaseo Niccolò, materiale a stampa, 1825, Fondazione Ranieri di Sorbello, Perugia">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">L'arte decorativa</h4>
+                                        <p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/56612471/" target="_blank" title="Identificativo VIAF di Le Corbusier">Le Corbusier<sup>VIAF</sup></a></b>.<b><a href="http://viaf.org/viaf/44307485/#Ozenfant,_Am%C3%A9d%C3%A9%C3%A9_(1886-1966)" target="_blank" title="Identificativo VIAF di Ozenfant, Amédée">Ozenfant, Amédée<sup>VIAF</sup></a></b>.</p>
+                                        <p class="card-text">Data: <b><a href="#" title="1920-1925">1920-1925</a></b>.</p>
+                                        <p class="card-text">Istituzione fornitrice: <b><a href="https://sba.uniroma3.it/" target="_blank" title="Pagina Web Sistema Bibliotecario di Ateneo - Roma Tre">Sistema Bibliotecario di Ateneo - Roma Tre<sup>Pagina Web</sup></a></b>.</p>
+                                    </div>
+                                    <a href="item.html" class="btn btn-blue" title="Tutti i metadati">Tutti i
+                                        metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 2 -->
+                        <div class="col-md-4 mt-4">
+                            <div class="card card-item">
+                                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i class="bi bi-card-image"></i></a></span>
+                                <div class="card-image-container">
+                                    <img src="immagini\lachamine.jpg" class="card-img-top" alt="Le Chaminée, Charles-Édouard Jeanneret-Gris, dipinto a olio, 1918, Fondation Le Corbusier, Parigi.">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">La Chaminée</h4>
+                                        <p class="card-text">Creatore: <b>Le Corbusier</b>.</p>
+                                        <p class="card-text">Data: <b><a href="#" title="1918">1918</a></b>.</p>
+                                        <p class="card-text">Istituzione fornitrice: <b><a href=http://www.fondationlecorbusier.fr/corbuweb/default.aspx target="_blank" title="Pagina Web Fondation Le Corbusier">Fondation Le Corbusier, Parigi<sup>Fondation Le Corbusier</sup></a></b>.</p>
+                                    </div>
+                                    <a href="item2.html" class="btn btn-blue" title="Tutti i metadati">Tutti i
+                                        metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 3 -->
+                        <div class="col-md-4 mt-4">
+                            <div class="card card-item">
+                                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i class="bi bi-card-image"></i></a></span>
+                                <div class="card-image-container">
+                                    <img src="immagini\unite.jpg" class="card-img-top" alt="Dante, Vela Vincenzo, scultura, 1860, Galleria Civica di Arte Moderna e Contemporanea, Torino">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">Cit&eacute; Radieuse</h4>
+                                        <p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/56612471/" target="_blank" title="Identificativo VIAF di Le Corbusier">Le Corbusier
+                                                    <sup>VIAF</sup></a></b>.</p>
+                                        <p class="card-text">Data: <b><a href="#" title="1952">1952</a></b>.</p>
+                                        <p class="card-text">Istituzione fornitrice: <b><a href=https://it.wikipedia.org/wiki/Unit%C3%A9_d%27Habitation_de_Marseille#Storia target="_blank" title="Pagina Wikipedia della Cité Radieuse, Marsiglia.">Cité Radieuse, Marsiglia<sup>Wikipedia</sup></a></b>.</p>
+                                    </div>
+                                    <a href="item.html" class="btn btn-blue" title="Tutti i metadati">Tutti
+                                        i metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- seconda riga di card per ciascun item -->
+                    <!-- inserisci un div con classe row per ogni riga di colonne -->
+                    <div class="row">
+                        <!-- item 1 -->
+                        <div class="col-md-4 mt-4">
+                            <div class="card card-item">
+                                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutti i testi del catalogo"><i class="bi bi-file-text-fill"></i></a></span>
+                                <div class="card-image-container">    
+                                    <img src="immagini\sediapivotant.jpg" class="card-img-top" alt="Siège pivotant, Le Corbusier, Perriand Charlotte, , 1927,  Musée des Arts Décoratifs, Parigi">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title"> Siège pivotant</h4>
+                                        <p class="card-text">Creatore: <b><a href=https://viaf.org/viaf/14781759/ target="_blank" title="Identificativo VIAF di Perriand, Charlotte">Perriand, Charlotte<sup>VIAF</sup></a></b>.</p>
+                                        <p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/56612471/" target="_blank" title="Identificativo VIAF di Le Corbusier">Le Corbusier<sup>VIAF</sup></a></b>.</p>
+                                        <p class="card-text">Data: <b><a href="#">1927</a></b>.</p>
+                                        <p class="card-text">Istituzione fornitrice: <b><a href=https://it.wikipedia.org/wiki/Mus%C3%A9e_des_Arts_D%C3%A9coratifs target="_blank" title="Pagina Wikipedia del Musée des Arts Décoratifs">Musée des Arts Décoratifs, Parigi<sup>Wikipedia</sup></a></b>.</p>
+                                    </div>
+                                    <a href="#" class="btn btn-blue" title="Tutti i metadati">Tutti i
+                                        metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 2 -->
+                        <div class="col-md-4 mt-4">
+                            <div class="card card-item">
+                                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutti i video del catalogo"><i class="bi bi-camera-reels-fill"></i></a></span>
+                                <div class="card-image-container">
+                                    <img src="immagini\citerad.jpg.png" class="card-img-top" alt="Visite de la Cité Radieuse après la mort de LE CORBUSIER,Institut national de l'audiovisuel (INA), video, Provence Actualites, Parigi">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">Visite de la Cité Radieuse après la mort de LE CORBUSIERi</h4>
+                                        <p class="card-text">Fornitore: <b><a href="https://it.wikipedia.org/wiki/Institut_national_de_l%27audiovisuel" target="_blank" title="Pagina Wikipedia dell'Institut national de l'audiovisuel (INA)">Institut national de l'audiovisuel (INA)<sup>Wikipedia</sup></a></b>.
+                                        </p>
+                                        <p class="card-text">Data: <b><a href="#" title="1965">1965</a></b>.</p>
+                                        <p class="card-text">Istituzione fornitrice: <b><a href="https://it.wikipedia.org/wiki/Institut_national_de_l%27audiovisuel" target="_blank" title="Pagina Wikipedia dell'Institut national de l'audiovisuel, Parigi">Institut national de l'audiovisuel (INA), Parigi<sup>Wikipedia</sup></a></b>.</p>
+                                    </div>
+                                    <a href="#" class="btn btn-blue" title="Tutti i metadati">Tutti i
+                                        metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 3 -->
+                        <div class="col-md-4 mt-4">
+                            <div class="card card-item">
+                                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vai a tutti gli audio del catalogo"><i class="bi bi-file-earmark-music-fill"></i></a></span>
+                                <div class="card-image-container">
+                                    <img src="immagini\canzone.png" class="card-img-top" alt="Roma: La nuova Divina Commedia illustrata, Picozzi Riccardo, audio, 1900, Internet Culturale">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">Mes pensées à 73 ans / Le Corbusier, aut., participant</h4>
+                                        <p class="card-text">Creatore: Le Corbusier.</p>
+                                        <p class="card-text">Data: <b><a href="#" title="1961">1961</a></b>.</p>
+                                        <p class="card-text">Istituzione fornitrice: <b><a href=https://it.wikipedia.org/wiki/Biblioth%C3%A8que_nationale_de_France target="_blank" title="Pagina Wikipedia della Bibliothèque nationale de France">Bibliothèque nationale de France<sup>Wikipedia</sup></a></b>.</p>
+                                    </div>
+                                    <a href="#" class="btn btn-blue" title="Tutti i metadati">Tutti i
+                                        metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- pagination -->
+                    <div class="row">
+                        <div class="col-md-12 mt-4">
+                            <nav>
+                                <!-- classe pagination-sm per ridurre le dimensioni della pagination -->
+                                <!-- classe justify-content-center per centrare la componente pagination -->
+                                <ul class="pagination pagination-sm justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true" title="Indietro">Previous</a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#" title="Pagina 1">1</a>
+                                    </li>
+                                    <li class="page-item" aria-current="page">
+                                        <a class="page-link" href="#" title="Pagina 2">2</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#" title="Pagina 3">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" title="Avanti">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- sidebar -->
+                <div class="col-md-1 col-sm-1 col-xs-12 mt-4">
+                    <aside>
+                        <div>
+                            <a href="#" class="link" title="Guida"><i class="bi bi-question-circle-fill"></i>
+                                <span>Guida</span></a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- informazioni secondarie -->
+        <div class="container-fluid background-footer pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mt-4">
+                        <h5 class="text-justify">Le Corbusier Archive</h5>
+                        <ul class="mt-3 pl-0"><i class="bi bi-facebook"></i> Le Corbusier Archive</ul>
+                        <ul class="mt-3 pl-0"><i class="bi bi-instagram"></i> LeCorbu_Archive</ul>
+                        <ul class="mt-3 pl-0"><i class="bi bi-twitter"></i> Le Corbusier Archive</ul>
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <h5 class="text-justify">Corso di Digital Humanities e Patrimonio Culturale</h5>
+                        <ul class="mt-3 pl-0"><i class="bi bi-github"></i> <a href="https://github.com/CamillaDePasqualis/esame-dh">Le Corbusier Archive </a></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="container-fluid background-gray">
+            <p class="mb-0 pb-1 pt-1 text-center">© Copyright (c) 2021 by Camilla De Pasqualis - Alma Mater Studiorum Università di Bologna - Corso di Digital Humanities e patrimonio culturale.</p>
+        </div>
+    </footer>
+
+    <!-- script sempre prima della chiusura del body -->
+    <!-- jquery -->
+    <!-- se si intende utilizzare bootstrap è sempre necessario includere prima una libreria di JavaScript chiamata jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

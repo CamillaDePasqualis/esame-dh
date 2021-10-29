@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xml:id="Le Corbusier Archive" xmlns:cdwalite="http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<cdwalite:objectWorkTypeWrap>
+		<cdwalite:objectWorkType termsourceID="300178684" termsource="ATT">pittura ad olio</cdwalite:objectWorkType>
+	</cdwalite:objectWorkTypeWrap>
+	<cdwalite:titleWrap>
+		<cdwalite:title>
+			<cdwalite:title lang="fr">La Chaminée</cdwalite:title>
+		</cdwalite:title>
+	</cdwalite:titleWrap>
+	<cdwalite:indexingCreatorWrap>
+		<cdwalite:indexingCreatorSet>
+			<cdwalite:nameCreatorSet>
+				<cdwalite:nameCreator termsourceID="50027041" termsource="ULAN" type="personalName">Le Corbusier</cdwalite:nameCreator>
+			</cdwalite:nameCreatorSet>
+		</cdwalite:indexingCreatorSet>
+		<cdwalite:nationalityCreator>Francia</cdwalite:nationalityCreator>
+		<cdwalite:vitalDatesCreator deathdate="1965-08-27" birthdate="1887-10-06">La-Chaux-de-Fonds, 6 ottobre 1887 - Roccabruna, 27 agosto 1965</cdwalite:vitalDatesCreator>
+		<cdwalite:genderCreator>Maschile</cdwalite:genderCreator>
+		<cdwalite:roleCeator termsourceID="300411314" termsource="AAT">Pittore</cdwalite:roleCeator>
+		<cdwalite:roleCeator termsourceID="300024987" termsource="AAT">Architetto</cdwalite:roleCeator>
+	</cdwalite:indexingCreatorWrap>
+	<cdwalite:displayMeasurements>60x73cm</cdwalite:displayMeasurements>
+	<cdwalite:indexingMeasurementsWrap>
+		<cdwalite:indexingMeasurementsSet>
+			<cdwalite:indexingMeasurementsSet type="height" unit="cm" value="60"/>
+			<cdwalite:indexingMeasurementsSet type="widht" unit="cm" value="73"/>
+		</cdwalite:indexingMeasurementsSet>
+	</cdwalite:indexingMeasurementsWrap>
+	<cdwalite:indexingMaterialsTech>Olio su tela</cdwalite:indexingMaterialsTech>
+	<cdwalite:indexingMaterialsTechWrap>
+		<cdwalite:indexingMaterialsTechSet>
+			<cdwalite:termsMaterilasTech termsourceID="300178684" termsource="AAT">pittura ad olio</cdwalite:termsMaterilasTech>
+			<cdwalite:termsMaterilasTech termsourceID="300014078" termsource="AAT">tela</cdwalite:termsMaterilasTech>
+		</cdwalite:indexingMaterialsTechSet>
+	</cdwalite:indexingMaterialsTechWrap>
+		<cdwalite:styleWrap>
+			<cdwalite:style termsourceID="7.037" termsource="UDC">Cubismo</cdwalite:style>
+		</cdwalite:styleWrap>
+		<cdwalite:displayCreationDate>1918</cdwalite:displayCreationDate>
+		<cdwalite:locationWrap>
+			<cdwalite:locationSet>
+				<cdwalite:locationName termsourceID="http://viaf.org/viaf/201206756" termsource="VIAF" type="currentRepository">Maison La Roche(Parigi, Francia)</cdwalite:locationName>
+			</cdwalite:locationSet>
+		</cdwalite:locationWrap>
+		<cdwalite:indexingSubjectWrap>
+			<cdwalite:indexingSubjectSet>
+				<cdwalite:subjectTerm termsourceID="aat:300250491" termsource="AAT" type="conceptTerm">Pastorale</cdwalite:subjectTerm>
+			</cdwalite:indexingSubjectSet>
+		</cdwalite:indexingSubjectWrap>
+		<cdwalite:DescriptiveNoteWrap>
+			<cdwalite:DescriptiveNoteSet>
+				<cdwalite:DescriptiveNote>La Chaminée mostra un cubo bianco appoggiato alla mensole del camino accanto a dei libri. L'inquadratura è molto ravvicinata e molto dettagliata e permette di trasformare gli oggetti, che da utensili si trasformano in possibili paesaggi. il cubo rappresente un ferma carte diventa così un'architettura simile alle case contadine che Le Corbusier aveva potuto ammirare nel suo viaggio nei Balcani nel 1911.</cdwalite:DescriptiveNote>
+			</cdwalite:DescriptiveNoteSet>
+		</cdwalite:DescriptiveNoteWrap>
+		<cdwalite:resourceWrap>
+			<cdwalite:linkResource type="URI">hhttps://github.com/elisaporcaro/progetto-esame/blob/74218ace0f109dcd49225fd16ca018de8e1dcfa3/img/gioconda_all.jpg</cdwalite:linkResource>
+			<cdwalite:resourchID>3.1.1</cdwalite:resourchID>
+			<cdwalite:resourceType termsourceID="300215302" termsource="AAT">Immagine digitale</cdwalite:resourceType>
+		</cdwalite:resourceWrap>
+	</library>
+			
+		
+
+
+
+
+
+
+
+
