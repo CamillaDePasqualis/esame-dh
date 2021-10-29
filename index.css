@@ -17,9 +17,6 @@
     width: 100%; bottom: 0px;
 
 }
-.carousel-image {
-  height: 100vh;
-}
 /* # si usa quando è un id */
 #carouselExampleCaptions {
   margin: 40px;
@@ -35,11 +32,11 @@
   bottom: 0;
 
 }
-.btn {
-  background-color: #e3b39e !important;
+.btn, #search-btn {
+  background-color: #e3b39e;
   font-weight: 500;
-    color: black !important;
-    border: 1px solid #dfdfdf !important;
+  color: black !important;
+  border: 1px solid #dfdfdf !important;
 }
 .background-footer {
   background-color: #fff5da;
@@ -69,7 +66,7 @@
 #header-lista{
   background-color: #fffcf5;
 }
-aside .card:hover, .card-tool:hover, .card-item:hover, .card-related-item:hover {
+aside .card:hover, .card-tool:hover, .card-item:hover, .card-related-item:hover, #search-btn:hover {
   box-shadow: 0px 5px 40px -10px rgba(122, 144, 173, .9);
   -webkit-box-shadow: 0px 5px 40px -10px rgba(38, 44, 52, .9); 
   -moz-box-shadow: 0px 5px 40px -10px rgba(38, 44, 52, .9);
@@ -130,4 +127,27 @@ aside .card:hover, .card-tool:hover, .card-item:hover, .card-related-item:hover 
 }
 .card-metadata > h4 {
   font-size: 1.2em;
+}
+.carousel-control-next, .carousel-control-prev {
+  z-index: 10000;
+}
+
+img.index-carousel-images {
+  width: 100% !important;
+}
+.card-img-top {
+  height: 200px;
+}
+.card-related-item .card-body {
+  height: 300px;
+}
+
+.card-related-item .card-body .card-text {
+  height: 150px;
+}
+.card-related-item .card-body h4{
+  height: 50px;
+}
+.card-header, #card-header-persona {
+  background-color: #fff5da;
 }

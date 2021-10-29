@@ -54,7 +54,7 @@
 			</cdwalite:DescriptiveNoteSet>
 		</cdwalite:DescriptiveNoteWrap>
 		<cdwalite:resourceWrap>
-			<cdwalite:linkResource type="URI">hhttps://github.com/elisaporcaro/progetto-esame/blob/74218ace0f109dcd49225fd16ca018de8e1dcfa3/img/gioconda_all.jpg</cdwalite:linkResource>
+			<cdwalite:linkResource type="URI">https://github.com/CamillaDePasqualis/esame-dh/blob/main/immagini/lachamine.jpg</cdwalite:linkResource>
 			<cdwalite:resourchID>3.1.1</cdwalite:resourchID>
 			<cdwalite:resourceType termsourceID="300215302" termsource="AAT">Immagine digitale</cdwalite:resourceType>
 		</cdwalite:resourceWrap>
