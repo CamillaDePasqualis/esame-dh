@@ -12,7 +12,7 @@
             <date>2015</date>
         </publicationStmt>
        <seriesStmt>
-            <title>Collezione BibIt</title>
+            <title>Collezione bnfc</title>
        </seriesStmt>
        <sourceDesc>
            <bibl>
@@ -71,26 +71,30 @@
             <p>Le carrozze vanno sulle strade d'<name resp="#CDP" type="place">Europa</name>. Scorte, pistole sulla sella <choice resp="#CDP"><abbr.>ecc.</abbr.><expan resp="#CDP">eccetera</expan></choice>
             </p>
             <p>
-            <name resp="#CDP" type="person">I tiranni</name> avevano deciso di inviare agli <name resp="#CDP" type="role">ambasciatori</name> a rivivere il <h1 resp="#CDP" rend="italic">il <measure resp="#CDP">grande</measure> <name resp="#CDP" type="role">re</name></h1>. L'<name resp="#CDP" type="role">ambasciatore</name> dà in smanie perchè ormai si è <measure resp="#CDP">vicini</measure>. Non si bada alle strade scavate dai solchi, alle pianure battute dai venti, alle gole propizie agli agguati.
+               <name resp="#CDP" type="person">I tiranni</name> avevano deciso di inviare agli <name resp="#CDP" type="role">ambasciatori</name> a rivivere il <h1 resp="#CDP" rend="italic">il <measure resp="#CDP">grande</measure> <name resp="#CDP" type="role">re</name></h1>. L'<name resp="#CDP" type="role">ambasciatore</name> dà in smanie perchè ormai si è <measure resp="#CDP">vicini</measure>. Non si bada alle strade scavate dai solchi, alle pianure battute dai venti, alle gole propizie agli agguati.
             </p>
             <p>
-            <name resp="#CDP" type="person">L'italiano</name>: <cit resp="#CDP">Questa tavola di <name resp="#CDP" type="place">Firenze</name> che ho con <rs type="person">me</rs> è un capolavoro: un dono raro. <rs resp="#CDP" type="person">Voi</rs>, vecchi mosaicisti e orafi furbacchioni, con pietre rarissime scovate ai confini dell'antico impero(leggi <name resp="#CDP" type="person">Cesare</name>!) siete riusciti a creare gli scherzi più folli, il più sconcertante sotterfugio; questa superficie levigata scompare sotto acque profonde, ne scaturiscono alberi, si illuminano rocce, risplendono cieli,giada,diaspro,onice,agata,lapislazzuli,cristallo</cit>
+               L'italiano: <cit resp="#CDP">Questa tavola di <name resp="#CDP" type="place">Firenze</name> che ho con <rs type="person">me</rs> è un capolavoro: un dono raro. <rs resp="#CDP" type="person">Voi</rs>, vecchi mosaicisti e orafi furbacchioni, con pietre rarissime scovate ai confini dell'antico impero(leggi <name resp="#CDP" type="person">Cesare</name>!) siete riusciti a creare gli scherzi più folli, il più sconcertante sotterfugio; questa superficie levigata scompare sotto acque profonde, ne scaturiscono alberi, si illuminano rocce, risplendono cieli,giada,diaspro,onice,agata,lapislazzuli,cristallo</cit>
             </p>
             <p>
-            L'inviato di <name resp="#CDP" type="person">Caterina la Grande</name>:<cit resp="#CDP">Questo enorme vaso da un monolito mi aiuterà a ottenere la firma del trattato. <name resp="#CDP" type="person">Ural</name> ricchissimo,<name resp="#CDP" type="person">Ural</name> tartaro,<name resp="#CDP" type="person">Ural</name>mongolo,<name resp="#CDP" type="person">Ural</name> dell'<name resp="#CDP" type="place">Asia!</name>Malachite, oro puro!<emph resp="#CDP">Oro puro e malachite!</emph> <h1 resp="#CDP" rend="italic">il gran re!</h1>Funzionerà</cit>
+               L'inviato di <name resp="#CDP" type="person">Caterina la Grande</name>:<cit resp="#CDP">Questo enorme vaso da un monolito mi aiuterà a ottenere la firma del trattato. <name resp="#CDP" type="person">Ural</name> ricchissimo,<name resp="#CDP" type="person">Ural</name> tartaro,<name resp="#CDP" type="person">Ural</name>mongolo,<name resp="#CDP" type="person">Ural</name> dell'<name resp="#CDP" type="place">Asia!</name>Malachite, oro puro!Oro puro e malachite!<h1 resp="#CDP" rend="italic">il gran re!</h1>Funzionerà</cit>
             </p>
             <p>
-            Dall'<name resp="#CDP" type="place">Etiopia</name>, da <name resp="#CDP" type="place">Damasco</name>, da <name resp="#CDP" type="place">Tehran</name> e altri paesi:<q>Quanti fuochi emana,e <emph resp="#CDP">stelle!</emph> Una cristallizzazione di incanti naturali: mare blu, lago verde, neve delle vette, sole, cielo delle <name resp="#CDP" type="place">piramidi</name>!</q>. Sgrana gli occhi e poi li fissa, e li sgrana di nuovo; sbatte le palpebre e scendono le lacrime. Commozione: <h1 resp="#CDP" rend="italic"><note resp="#CDP">è con questo che si possono fare affari.</note></h1></p><p>le carrozze sobbalzano nei solchi, la natura è gigia, senza malachite, nè oro puro, ne metafore.</p>
-            <p>al castello del <h1 resp="#CDP" rend="italic"><measure resp="#CDP">Gran</measure><name resp="#CDP" type="role">re</name></h1>
+               Dall'<name resp="#CDP" type="place">Etiopia</name>, da <name resp="#CDP" type="place">Damasco</name>, da <name resp="#CDP" type="place">Tehran</name> e altri paesi:<q>Quanti fuochi emana,e stelle! Una cristallizzazione di incanti naturali: mare blu, lago verde, neve delle vette, sole, cielo delle <name resp="#CDP" type="place">piramidi</name>!</q>. Sgrana gli occhi e poi li fissa, e li sgrana di nuovo; sbatte le palpebre e scendono le lacrime. Commozione: <h1 resp="#CDP" rend="italic"><note resp="#CDP">è con questo che si possono fare affari.</note></h1></p>
+            <p>
+               le carrozze sobbalzano nei solchi, la natura è gigia, senza malachite, nè oro puro, ne metafore.
+           </p>
+            <p>
+                al castello del <h1 resp="#CDP" rend="italic"><measure resp="#CDP">Gran</measure><name resp="#CDP" type="role">re</name></h1>
             </p>
             <p>
-              Il <measure resp="#CDP">gran</measure><name resp="#CDP" type="role">cerimoniere</name><q resp="#CDP">Ah, ne vedranno, si, di cose!</q>.
+              Il gran <name resp="#CDP" type="role">cerimoniere</name><q resp="#CDP">Ah, ne vedranno, si, di cose!</q>.
             </p>
             <p>
-              <q resp="#CDP">Vero è che il parco non è un gran vedere, sembra una vigna dìinverno con tutti i suoi pali. E' giovane, ma crescerà. Il <name resp="#CDP" type="place">castello</name>, invece, tutto uno <emph resp="#CDP">splendore!</emph>Quanto è <emph resp="#CDP">costato!</emph>Egli disse:<cit resp="#CDP">Oro, marmo e specchi dappertutto. i Bronzi innumerevoli siano cesellati e coperti di oro zecchino. Che i muri siano sepolti sotto ghirlande, pannelli, pitture a chiaroscuro e affreschi. Dopo i Nostri non si sentirà più parlare dei soffiti dei <name resp="#CDP" type="person">dogi</name></cit>,<cit resp="#CDP">voglio delle assi!</cit>ha ordinato. E quelle che hanno fatto sono come raggi di luce e i pavimenti come tappeti di pietra. Hanno sagomato le chiambrane di legno in tutti i modi possibili, e poi hanno aggiunto oro zecchino in foglie. Muri di pietre rare alternati a specchi. la sua Gloria dipinta, nell'oro, dai più <measure resp="#CDP">grandi</measure><name resp="#CDP" type="role">maestri</name>; i candelabri dalle <measure resp="#CDP">centomila</measure>candele. Si, vengano pure gli <name resp="#CDP" type="role">Ambasciatori</name>.</q>
+              <q resp="#CDP">Vero è che il parco non è un gran vedere, sembra una vigna dìinverno con tutti i suoi pali. E' giovane, ma crescerà. Il <name resp="#CDP" type="place">castello</name>, invece, tutto uno splendore!Quanto è costato!Egli disse:<cit resp="#CDP">Oro, marmo e specchi dappertutto. i Bronzi innumerevoli siano cesellati e coperti di oro zecchino. Che i muri siano sepolti sotto ghirlande, pannelli, pitture a chiaroscuro e affreschi. Dopo i Nostri non si sentirà più parlare dei soffiti dei <name resp="#CDP" type="person">dogi</name></cit>,<cit resp="#CDP">voglio delle assi!</cit>ha ordinato. E quelle che hanno fatto sono come raggi di luce e i pavimenti come tappeti di pietra. Hanno sagomato le chiambrane di legno in tutti i modi possibili, e poi hanno aggiunto oro zecchino in foglie. Muri di pietre rare alternati a specchi. la sua Gloria dipinta, nell'oro, dai più grandi maestri; i candelabri dalle <measure resp="#CDP">centomila</measure>candele. Si, vengano pure gli <name resp="#CDP" type="role">Ambasciatori</name>.</q>
            </p>
            <p>
-              Gridando a perdifiato:<q resp="#CDP"><emph resp="#CDP">Heila!</emph><name resp="#CDP" type="role">Domestici</name><name resp="#CDP" type="role">inceratori</name><name resp="#CDP" type="role">lucidatori</name><name resp="#CDP" type="role">tappezzieri</name> strofinate a tutto andare, che tutto sia tirato a lucido!</q>
+              Gridando a perdifiato:<q resp="#CDP">Heila!Domestici,inceratori,lucidatori,tappezzieri strofinate a tutto andare, che tutto sia tirato a lucido!</q>
            </p>
            <p>
               Entra il <name resp="#CDP" type="role">Re</name>, col capo ornato di piume di struzzo rosa, giallo canarino e celeste; con ermellino, seta, broccato e pizzi; il bastone è d'oro, ebano, avorio e diamanti.
